@@ -1,0 +1,37 @@
+body {
+  font-family: Mulish;
+}
+
+body .navigation-bar {
+  background-color: #1F1F1F;
+}
+
+body .navigation-bar .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: Mulish;
+  height: 50px;
+}
+
+body .navigation-bar .container-fluid .nav-links {
+  font-family: Mulish;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=main.css.map */
